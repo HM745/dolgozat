@@ -9,13 +9,15 @@ elif szek_valasztas == 2:
         print(f"{szekek[1]}-es széket lefoglaltad")
 elif szek_valasztas == 3:
     for i in range(1):
-        print(f"{szekek[2]}-es széket lefoglaltad")
+        print(f"{szekek[2]}-as széket lefoglaltad")
 elif szek_valasztas == 4:
     for i in range(1):
         print(f"{szekek[3]}-es széket lefoglaltad")
-elif szek_valasztas == 3:
+elif szek_valasztas == 5:
     for i in range(1):
-        print(f"{szekek[len(szekek)-1]}-es széket lefoglaltad")
+        print(f"{szekek[len(szekek)-1]}-ös széket lefoglaltad")
+else:
+    print("Nem áll ilyen szék a rendelkezésre")
 
 
 
